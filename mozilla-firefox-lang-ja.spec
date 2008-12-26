@@ -1,13 +1,13 @@
 %define		_lang		ja
-Summary:	Japanese resources for Mozilla-firefox
-Summary(pl.UTF-8):	Japońskie pliki językowe dla Mozilli-firefox
+Summary:	Japanese resources for Firefox
+Summary(pl.UTF-8):	Japońskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	fc027b810e3c57e96d888039ed675258
+# Source0-md5:	e6c91b9fee9e62dc3fe185dbc733e9cb
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-Japanese resources for Mozilla-firefox.
+Japanese resources for Firefox.
 
 %description -l pl.UTF-8
-Japońskie pliki językowe dla Mozilli-firefox.
+Japońskie pliki językowe dla Firefoksa.
 
 %prep
 
