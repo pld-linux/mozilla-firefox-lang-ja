@@ -2,12 +2,12 @@
 Summary:	Japanese resources for Firefox
 Summary(pl.UTF-8):	Japońskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.5
+Version:	3.0.7
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	e6c91b9fee9e62dc3fe185dbc733e9cb
+# Source0-md5:	880ad7a973d5eacd92bc41f35d7bd717
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
